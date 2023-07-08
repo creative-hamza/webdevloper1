@@ -110,6 +110,10 @@ nav a {
 .banner_des {}
 
 /* main tag style */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* about style */
 .about {
@@ -118,3 +122,8 @@ nav a {
     border-radius: 10px;
     margin: 130px 0px;
 }
+ .about_info_container{ 
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+ }  
