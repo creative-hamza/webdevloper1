@@ -1,5 +1,5 @@
 /* shared style */
-.btn{
+.btn_primary{
     background: #FD6E0A;
     border-radius: 5px;
     font-size: 20px;
@@ -14,13 +14,14 @@ body{
     font-family: 'Lato', sans-serif;
 }
 /* orange color */
-    .orange_col{
+    .text_primary{
     color: #FD6E0A;
 }
 /* nav style */
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0px 228px;
 }
 .nav_title{
     color: #181818;
@@ -39,4 +40,18 @@ nav li{
 }
 nav a {
     text-decoration: none;
+}
+/* header releted style */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    /* bujhte pari nai */
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile_picture{
+    width: 584px;
+    height: 676px;
 }
