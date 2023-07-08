@@ -33,9 +33,9 @@ body {
 .section_description {
     color: #757575;
     text-align: center;
-    
+
     font-size: 18px;
-    
+
     font-weight: 400;
     line-height: 30px;
 }
@@ -110,7 +110,7 @@ nav a {
 .banner_des {}
 
 /* main tag style */
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
@@ -122,23 +122,45 @@ main{
     border-radius: 10px;
     margin: 130px 0px;
 }
- .about_info_container{ 
+
+.about_info_container {
     display: flex;
     justify-content: space-around;
     text-align: center;
- }  
- /* what i do section */
- #what_i_do{
+}
+
+/* what i do section */
+#what_i_do {
     padding: 30px 150px;
- }
- .skill_container{
+}
+
+.skill_container {
     display: flex;
     /* justify-content: space-around;
     text-align: center; */
- }
- .skill_des{
-    
- }
- .skill{
+    gap: 24px;
+}
+
+.skill_des {
+    color: #757575;
+}
+
+.skill {
     padding: 30px;
- }
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* REsume section style */
+.resume_column_title {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.resume_container{
+    display: flex;
+}
