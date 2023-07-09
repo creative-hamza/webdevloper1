@@ -71,9 +71,9 @@ nav a {
 /* header releted style */
 .header {
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 }
 
 .banner {
@@ -178,4 +178,16 @@ footer{
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
+    gap: 100px;
+}
+.footer_column{
+    width: 50%;
+}
+.contact textarea,.contact input[type="text"],.contact input[type="email"]{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
 }
